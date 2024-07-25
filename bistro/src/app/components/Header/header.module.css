@@ -1,0 +1,9 @@
+.grey_container {
+    background-color: #474747;
+    height: 45px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
