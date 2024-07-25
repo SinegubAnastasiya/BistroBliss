@@ -1,7 +1,7 @@
 import style from './header.module.css'
 
 export default function Header() {
-    return <>
+    return <header>
         <div className={style.wrapper}>
             <div className={style.grey_container}>
                 <div className={style.info}>
@@ -12,5 +12,5 @@ export default function Header() {
                 </div>
             </div>
         </div>
-    </>
+    </header>
 }
