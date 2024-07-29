@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import style from './header.module.css'
 
 export default function Header() {
@@ -31,7 +32,16 @@ export default function Header() {
             </div>
         </div>
         <div className={style.white_container}>
-            
+            <div className={style.logo}>
+                <div></div>
+                <h1>Bistro Bliss</h1>
+            </div>
+            <nav className={style.navig_btn}>
+                <button><Link href={'/'}>Home</Link></button>
+                <button><Link href={'/about'}>About</Link></button>
+                <button><Link href={'/menu'}>Menu</Link></button>
+            </nav>
+            <button>Book A Table</button>
         </div>
     </header>
 }

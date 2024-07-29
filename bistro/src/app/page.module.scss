@@ -1,0 +1,175 @@
+.main_image {
+    background-image: url('./assets/imgs/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    h1 {
+        font: 400 100px Playfair Display;
+        text-align: center;
+        color: #2C2F24;
+        width: 667px;
+        margin-top: 171px;
+    }
+
+    p {
+        font: 400 20px DM Sans;
+        color: #2C2F24;
+        text-align: center;
+        width: 537px;
+        margin-top: 32px;
+    }
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+
+    .btn_reserve {
+        font: 700 16px DM Sans;
+        color: #FFFFFF;
+        text-align: center;
+        background-color: #AD343E;
+        border-radius: 118px;
+        padding: 20px 32px;
+    }
+
+    .btn_menu {
+        font: 700 16px DM Sans;
+        color: #2C2F24;
+        text-align: center;
+        border: 1.5px solid #2C2F24;
+        background-color: #FFF;
+        border-radius: 118px;
+        padding: 20px 32px;
+    }
+}
+
+.section_2 h1,
+.section_3 h1 {
+    font: 500 55px Playfair Display;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 92px;
+}
+
+.menu,
+.services_sect {
+    display: flex;
+    justify-content: space-between;
+    margin: 64px 150px 0 150px;
+    gap: 24px;
+}
+
+.dishes {
+    width: 306px;
+    height: 375px;
+    border-radius: 12px;
+    text-align: center;
+    border: 2px solid #DBDFD0;
+    background-color: #FFFFFF;
+    padding: 34px;
+}
+
+.dishes h2 {
+    font: 700 24px DM Sans;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dishes p {
+    font: 400 16px DM Sans;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.services h2 {
+    font: 700 24px DM Sans;
+    margin-top: 30px;
+}
+
+.services p {
+    font: 400 16px DM Sans;
+    margin-top: 30px;
+}
+
+.breakf,
+.main,
+.drinks,
+.dessert {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+}
+
+.breakf {
+    background-image: url('./assets/imgs/breakf.svg');
+}
+
+.main {
+    background-image: url('./assets/imgs/main.svg');
+}
+
+.drinks {
+    background-image: url('./assets/imgs/drinks.svg');
+}
+
+.dessert {
+    background-image: url('./assets/imgs/dessert.svg');
+}
+
+.link {
+    font: 700 16px DM Sans;
+    color: #AD343E;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.service_title {
+    font: 500 55px Playfair Display;
+    text-align: left;
+    width: 675px;
+}
+
+.catering,
+.birthday,
+.wedding,
+.events {
+    width: 306px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+}
+
+.catering {
+    background-image: url('./assets/imgs/catering.svg');
+}
+
+.birthday {
+    background-image: url('./assets/imgs/birthday.svg');
+}
+
+.wedding {
+    background-image: url('./assets/imgs/wedding.svg');
+}
+
+.events {
+    background-image: url('./assets/imgs/events.svg');
+}
