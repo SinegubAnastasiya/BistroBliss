@@ -1,0 +1,118 @@
+.menu_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1293px;
+    margin: auto;
+}
+
+.menu_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 557px;
+    margin: auto;
+    align-items: center;
+
+    h1 {
+        font: 400 100px Playfair Display;
+        margin-bottom: 20px;
+        margin-top: 97px;
+    }
+
+    p {
+        font: 400 18px DM Sans;
+        text-align: center;
+        margin-bottom: 85px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .item {
+        border-radius: 12px;
+        text-align: center;
+        border: 1.5px solid #DBDFD0;
+        background-color: #FFFFFF;
+        width: 306px;
+    }
+
+    .text_container {
+        .price {
+            font: 700 24px Dm Sans;
+            color: #AD343E;
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+
+        h2 {
+            font: 700 20px Dm Sans;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font: 400 16px DM Sans;
+            text-align: center;
+            margin-bottom: 34px;
+        }
+    }
+}
+
+.img_egg,
+.img_burger,
+.img_cake,
+.img_cocktail,
+.img_icecream,
+.img_lemonade,
+.img_pizza,
+.img_waffles { 
+    width: 306px;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.img_egg {
+    background-image: url('./assets/img_eggs.svg');
+}
+
+.img_burger {
+    background-image: url('./assets/img_burger.svg');
+}
+.img_cake {
+    background-image: url('./assets/img_cake.svg');
+}
+.img_icecream {
+    background-image: url('./assets/img_icecream.svg');
+}
+.img_lemonade {
+    background-image: url('./assets/img_lemonade.svg');
+}
+.img_pizza {
+    background-image: url('./assets/img_pizza.svg');
+}
+.img_waffles {
+    background-image: url('./assets/img_waffles.svg');
+}
+.img_cocktail {
+    background-image: url('./assets/img_cocktail.svg');
+}
+
+
+
+// .item {
+//     width: 306px;
+//     height: 428px;
+//     border-radius: 12px;
+//     text-align: center;
+//     border: 1.5px solid #DBDFD0;
+//     background-color: #FFFFFF;
+//     padding: 34px;
+// }

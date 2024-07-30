@@ -1,6 +1,6 @@
 import Image from "next/image";
 import style from "./page.module.scss";
-import Header from "./components/Header/Header";
+import Header from "../components/Header/Header";
 
 export default function Home() {
 
@@ -37,7 +37,7 @@ export default function Home() {
         <h1>Browse Our Menu</h1>
 
         <div className={style.menu}>
-          {menuArr.map(el => <div className={style.dishes}>
+          {menuArr.map((el, i) => <div className={style.dishes} key={i}>
             <div className={el.img}></div>
             <h2 className={style.title}>{el.title}</h2>
             <p>{el.text}</p>
@@ -51,11 +51,11 @@ export default function Home() {
         <h1 className={style.service_title}>We also offer unique services for your events</h1>
 
         <div className={style.services_sect}>
-          {servicesArr.map((el) => <div className={style.services}>
-              <div className={el.img}></div>
-                <h2>{el.title}</h2>
-                <p>{el.text}</p>
-              </div>
+          {servicesArr.map((el, i) => <div className={style.services} key={i}>
+            <div className={el.img}></div>
+            <h2>{el.title}</h2>
+            <p>{el.text}</p>
+          </div>
           )}
         </div>
 

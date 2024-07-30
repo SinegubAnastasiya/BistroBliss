@@ -1,0 +1,129 @@
+.grey_container {
+    background-color: #474747;
+}
+
+.wrapper {
+    max-width: 1293px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #474747;
+    padding: 10px 0;
+}
+
+.phone,
+.mail {
+    display: flex;
+    gap: 8px;
+}
+
+.phone p,
+.mail a {
+    font: 400 16px DM Sans;
+    color: #F9F9F7;
+}
+
+.imgPhone,
+.imgMail {
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgPhone {
+    background-image: url('./assets/phone.svg');
+}
+
+.imgMail {
+    background-image: url('./assets/Icon.svg');
+}
+
+.icons {
+    display: flex;
+    gap: 8px;
+}
+
+.iconBlock {
+    border-radius: 50px;
+    background-color: #F9F9F71F;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter,
+.instagram,
+.facebook,
+.gitHub,
+.logo div {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.twitter {
+    background-image: url('./assets/twitter.svg');
+    width: 10px;
+    height: 8px;
+}
+
+.instagram {
+    background-image: url('./assets/instagram.svg');
+    width: 13px;
+    height: 13px;
+}
+
+.facebook {
+    background-image: url('./assets/fb.svg');
+    width: 6px;
+    height: 12px;
+}
+
+.gitHub {
+    background-image: url('./assets/github.svg');
+    width: 12px;
+    height: 12px;
+}
+
+.white_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo div {
+    background-image: url('./assets/food.svg');
+    width: 56px;
+    height: 55px;
+}
+
+.logo h1 {
+    font: 600 43px Playfair Display;
+}
+
+.navig_btn button {
+    gap: 8px;
+    font: 500 16px DM Sans;
+}
+
+.btn_reserve {
+    font: 700 16px DM Sans;
+    color: #182226;
+    border-radius: 118px;
+    text-align: center;
+    border: 1.5px solid #2C2F24;
+    background-color: #F9F9F7;
+    padding: 12px 24px;
+}
