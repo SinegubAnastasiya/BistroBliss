@@ -3,7 +3,6 @@ import style from "./menu.module.scss";
 import Header from "../../components/Header/Header";
 
 export default function Home() {
-
     const menuArr = [
         { img: style.img_egg, price: "$ 9.99", dish: "Fried Eggs", description: "Made with eggs, lettuce, salt, oil and other ingredients." },
         { img: style.img_pizza, price: "$ 15.99", dish: "Hawaiian Pizza", description: "Made with eggs, lettuce, salt, oil and other ingredients." },
