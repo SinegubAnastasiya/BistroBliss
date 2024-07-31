@@ -1,0 +1,121 @@
+.aboutUs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+    background-color: #F9F9F7;
+}
+
+.pictures {
+    display: flex;
+    margin: auto;
+
+    .img_contacts,
+    .img_dish {
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .img_dish {
+        background-image: url('./assets/dish.svg');
+        width: 599px;
+        height: 566px;
+    }
+
+    .img_contacts {
+        background-image: url('./assets/card.svg');
+        width: 411px;
+        height: 321px;
+        position: absolute;
+        top: 480px;
+        left: 338px;
+    }
+}
+
+.infoAboutUS {
+    display: flex;
+    flex-direction: column;
+    width: 557px;
+    margin: auto;
+
+    h1 {
+        font: 500 55px Playfair Display;
+        color: #2C2F24;
+        padding-bottom: 24px;
+    }
+
+    h3 {
+        font: 500 18px DM Sans;
+        padding-bottom: 24px;
+    }
+
+    p {
+        font: 400 16px DM Sans;
+    }
+}
+
+.statistic {
+    background-color: #FFFFFF;
+    margin-top: 138px;
+    display: flex;
+
+    .statistic_info {
+        width: 610px;
+        margin: auto;
+
+
+        .title {
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font: 500 55px Playfair Display;
+            color: #2C2F24;
+            margin-bottom: 20px;
+            width: 556px;
+        }
+
+        p {
+            font: 400 16px DM Sans;
+            width: 556px;
+        }
+
+        .stat_wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 24px;
+
+            .statisticBlock {
+                border-radius: 8px;
+                text-align: center;
+                border: 1px solid #DBDFD0;
+                background-color: #FFFFFF;
+                width: 293px;
+                height: 174px;
+                margin: auto;
+                padding-top: 35px;
+
+                h4 {
+                    font: 500 55px Playfair Display;
+                    padding-bottom: 13.5px;
+                }
+
+                .descr {
+                    font: 500 18px DM Sans;
+                    width: 293px;
+                }
+            }
+        }
+    }
+
+    .food_picture {
+        background-image: url('./assets/food_picture.svg');
+        width: 555px;
+        height: 680px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: auto;
+        border-radius: 12px;
+    }
+}
