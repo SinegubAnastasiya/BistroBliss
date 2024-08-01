@@ -3,7 +3,6 @@ import style from "./about.module.scss";
 import Header from "../../components/Header/Header";
 
 export default function Home() {
-
     const statInfoArr = [
         { count: "3", description: "Locations" },
         { count: "1995", description: "Founded" },
@@ -33,7 +32,6 @@ export default function Home() {
                     <p>At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
                 </div>
 
-
                 <div className={style.stat_wrapper}>
                     {statInfoArr.map((el, i) => <div className={style.statisticBlock} key={i}>
                         <h4>{el.count}</h4>
@@ -44,9 +42,6 @@ export default function Home() {
             </div>
 
             <div className={style.food_picture}></div>
-
-
-
         </section>
 
     </>;

@@ -1,0 +1,61 @@
+.dish_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+
+    .img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 599px;
+        height: 566px;
+        border-radius: 12px;
+        margin: auto;
+    }
+
+    .img_egg {
+        background-image: url('../assets/img_eggs.svg');
+    }
+    .img_cake {
+        background-image: url('../assets/img_cake.svg');
+    }
+    .img_burger {
+        background-image: url('../assets/img_burger.svg');
+    }
+    .img_cocktail {
+        background-image: url('../assets/img_cocktail.svg');
+    }
+    .img_icecream {
+        background-image: url('../assets/img_icecream.svg');
+    }
+    .img_lemonade {
+        background-image: url('../assets/img_lemonade.svg');
+    }
+    .img_pizza {
+        background-image: url('../assets/img_pizza.svg');
+    }
+    .img_waffles {
+        background-image: url('../assets/img_waffles.svg');
+    }
+
+    .dish_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+
+        h1 {
+            font: 500 55px Playfair Display;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font: 500 18px DM Sans;
+            margin-bottom: 24px;
+        }
+
+        p {
+            font: 400 16px DM Sans;
+        }
+    }
+}
+
