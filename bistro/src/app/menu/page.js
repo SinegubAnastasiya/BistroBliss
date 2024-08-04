@@ -1,9 +1,9 @@
 "use client"
-import Image from "next/image";
 import style from "./menu.module.scss";
 import Header from "../../components/Header/Header";
 import Link from 'next/link'
 import menuArr from "@/storage/storage";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
 
@@ -29,6 +29,6 @@ export default function Home() {
                 )}
             </div>
         </div>
-
+        <Footer />
     </>;
 }

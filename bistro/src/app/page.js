@@ -1,6 +1,6 @@
-import Image from "next/image";
 import style from "./page.module.scss";
 import Header from "../components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
 
@@ -61,5 +61,6 @@ export default function Home() {
 
       </div>
     </main>
+    <Footer />
   </>;
 }

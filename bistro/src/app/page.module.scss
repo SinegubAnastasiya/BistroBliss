@@ -57,13 +57,29 @@
     }
 }
 
+.section_3 {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    background-color: #F9F9F7;
+}
+
+.section_2 {
+    padding-top: 82px;
+    padding-bottom: 120px;
+}
+
 .section_2 h1,
 .section_3 h1 {
     font: 500 55px Playfair Display;
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-top: 92px;
+}
+
+.section_3 h1 {
+    text-align: left;
+    width: 675px;
+    margin-left: 152px;
 }
 
 .menu,

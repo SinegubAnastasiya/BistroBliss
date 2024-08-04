@@ -1,0 +1,83 @@
+.wrapper {
+    display: flex;
+    background-color: #474747;
+    padding: 120px 152px 120px 152px; 
+    gap: 135px;
+
+    nav {
+        h2 {
+            font: 700 16px DM Sans;
+            color: #FFFFFF;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font: 400 16px DM Sans;
+            color: #DBDFD0;
+            margin-bottom: 20px;
+        }
+
+        .instaImg {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+
+            .soup,
+            .potato,
+            .salad,
+            .pancakes {
+                width: 222px;
+                height: 176px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                border-radius: 12px;
+            }
+
+            .soup {
+                background-image: url('./assets/soup.svg')
+            }
+
+            .potato {
+                background-image: url('./assets/potato.svg')
+            }
+
+            .salad {
+                background-image: url('./assets/salad.svg')
+            }
+
+            .pancakes {
+                background-image: url('./assets/pancakes.svg')
+            }
+        }
+    }
+}
+
+.main_info {
+    width: 293px;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 30px;
+
+        div {
+            background-image: url('./assets/food.svg');
+            width: 56px;
+            height: 55px;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            font: 600 33px Playfair Display;
+            font-style: italic;
+            color: #FFFFFF;
+        }
+    }
+
+    p {
+        font: 400 16px DM Sans;
+        color: #ADB29E;
+    }
+}

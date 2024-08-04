@@ -98,7 +98,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F9F9F7;
+    /* background-color: #F9F9F7; */
+    background-color: #FFFFFF;
     height: 100px;
     padding: 0 150px;
 }
