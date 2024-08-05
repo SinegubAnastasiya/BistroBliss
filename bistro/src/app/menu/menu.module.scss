@@ -5,6 +5,7 @@
     align-items: center;
     width: 1293px;
     margin: auto;
+    padding-bottom: 120px;
 }
 
 .menu_title {
@@ -41,6 +42,11 @@
         border: 1.5px solid #DBDFD0;
         background-color: #FFFFFF;
         width: 306px;
+        transition: box-shadow 0.5s;
+    }
+
+    .item:hover {
+        box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
     }
 
     .text_container {
